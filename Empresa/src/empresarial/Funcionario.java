@@ -1,3 +1,5 @@
+package empresarial;
+
 /**
  * Created by gita on 14/02/17.
  */
@@ -75,5 +77,13 @@ public class Funcionario {
 
     public double calculaGanhoAnual(){
         return this.getSalario()*12;
+    }
+
+    public void mostra(){
+        System.out.println(this.getNome());
+        System.out.println(this.getRg());
+        System.out.println(this.getDepartamento());
+        System.out.println(this.getDataEntrada());
+        System.out.println(this.getSalario());
     }
 }
