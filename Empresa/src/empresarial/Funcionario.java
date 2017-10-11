@@ -21,7 +21,7 @@ public class Funcionario {
          if(salario > 0)
             this.salario = salario;
          else
-             throw new IllegalArgumentException("Salario incompativel");
+             throw new IllegalArgumentException("Salário incompativel");
      }
 
      public double getSalario(){
